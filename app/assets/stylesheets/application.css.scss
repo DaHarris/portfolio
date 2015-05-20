@@ -1,0 +1,281 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@import "reset";
+@import "columns";
+@import url(http://fonts.googleapis.com/css?family=Raleway:800,100,400);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+body {
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.header {
+  background-color: #F06543;
+  width: 100%;
+  height: 60px;
+}
+
+.header h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+#main {
+  width: 100%;
+  background-size: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects {
+  float: left;
+  width: 100%;
+}
+
+.topper h1 {
+  font-family: 'Permanent Marker', cursive;
+  width: 100%;
+  height: 100%;
+  word-spacing: 200px;
+}
+
+.topper {
+  z-index: 11;
+  background-color: #232228;
+  color: #A9FFF7;
+  height: 24%;
+  width: 100%;
+  text-align: center;
+  float: left;
+  max-height: 75px;
+  -moz-box-shadow:0 0 8px 0 black;
+  -webkit-box-shadow:0 0 8px 0 black;
+  box-shadow:0 0 8px 0 black;
+}
+
+.topper #logo {
+  padding-top: 3px;
+  height: 70px;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.topper #logo:hover {
+  opacity: 0.4;
+}
+
+#contact-h1 {
+  text-align: left;
+  color: #A9FFF7;
+}
+
+#contact-h1:hover {
+  color: #FF6663;
+}
+
+#portfolio-h1 {
+  text-align: right;
+  color: #A9FFF7;
+}
+
+a {
+  text-decoration:none;
+}
+
+#portfolio-h1:hover {
+  color: #FF6663;
+}
+
+.container h1,h2,h3,h4,h5,h6,a,p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #000000;
+}
+
+#webs {
+  width: 100%;
+}
+
+#headshot {
+  width: 30%;
+  padding: 50px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 160px;
+  min-width: 190px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  overflow: auto;
+  background-color: #FFFFFF;
+}
+
+#mid {
+  width: 80%;
+}
+
+hr {
+  width: 60%;
+}
+
+#education,#ed-header,#skills,#skills-header,#summary {
+  text-align: center;
+  line-height: 25px;
+}
+
+#summary {
+  text-align: center;
+}
+
+p#summary {
+  display: block;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about {
+  height: 40%;
+}
+
+.portfolio-box {
+  float: left;
+  background-image: url("footer_lodyas.png");
+  width: 100%;
+  -moz-box-shadow:0 0 8px 0 black;
+  -webkit-box-shadow:0 0 8px 0 black;
+  box-shadow:0 0 8px 0 black;
+}
+
+#portfolio-topper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #A9FFF7;
+  text-align: center;
+}
+
+.port {
+  background-image: url("footer_lodyas.png");
+}
+
+.ports {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  -moz-box-shadow:0 0 8px 0 black;
+  -webkit-box-shadow:0 0 8px 0 black;
+  box-shadow:0 0 8px 0 black;
+}
+
+.image-header {
+  display: none;
+  margin-left: 10%;
+  color: #FFFFFF;
+  position: absolute;
+  height: 20%;
+  margin-top: 5%;
+}
+
+.image-text {
+  display: none;
+  margin-left: 5%;
+  color: #FFFFFF;
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  margin-top: 10%;
+}
+
+.first-button {
+  z-index: 10;
+  display: none;
+  padding: 0.88889rem 1.77778rem 0.94444rem 1.77778rem;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 30%;
+  text-align: center;
+  width: 200px;
+  background-color: #008CBA;
+  border-color: #007095;
+  color: #FFFFFF;
+}
+
+.first-button:hover {
+  opacity: .7;
+}
+
+.second-button {
+  z-index: 10;
+  display: none;
+  padding: 0.88889rem 1.77778rem 0.94444rem 1.77778rem;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  width: 200px;
+  margin-left: 10%;
+  margin-top: 30%;
+  text-align: center;
+  background-color: #008CBA;
+  border-color: #007095;
+  color: #FFFFFF;
+}
+
+.second-button:hover {
+  opacity: .7;
+}
+
+.contact-box {
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+  float: left;
+  line-height: 25px;
+}
+
+.contact-box p {
+  color: #A9FFF7;
+}
+
+.contact-box a {
+  color: #FF6663;
+}
+
+#snorlax-box {
+  height: 107px;
+}
+
+#snorlax {
+  opacity: 0.7;
+  display: block;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+#contact-topper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #A9FFF7;
+  text-align: center;
+}
+
+#basic-info {
+  margin-left: 25%;
+}
+
+#extra-info {
+  text-align: right;
+  margin-right: 25%;
+}
