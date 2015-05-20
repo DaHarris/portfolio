@@ -4,16 +4,18 @@
   <img src="/inplace.png" id="main"></img>
 </div>
 
-<div class="topper">
-  <div class="col-12">
-    <div class="col-4">
-      <a href="#portfolio"><h1 id="portfolio-h1">Portfolio</h1></a>
-    </div>
-    <div class="col-4">
-      <a href="#top"><img src="assets/logowhite.png" id="logo"></img></a>
-    </div>
-    <div class="col-4">
-      <a href="#contact"><h1 id="contact-h1">Contact</h1></a>
+<div id="menu-placeholder">
+  <div class="topper">
+    <div class="col-12">
+      <div class="col-4">
+        <a href="#portfolio"><h1 id="portfolio-h1">Portfolio</h1></a>
+      </div>
+      <div class="col-4">
+        <a href="#top"><img src="assets/logowhite.png" id="logo"></img></a>
+      </div>
+      <div class="col-4">
+        <a href="#contact"><h1 id="contact-h1">Contact</h1></a>
+      </div>
     </div>
   </div>
 </div>
@@ -59,19 +61,73 @@
       <hr id="mid">
 
       <br><br>
-      <h1 id="skills-header">Skills</h1>
-      <p id="skills">
-        Java<br>
-        Ruby on Rails<br>
-        Javascipt<br>
-        Jquery<br>
-        HTML<br>
-        CSS<br>
-        Android Development<br>
-        Agile Development<br>
-        Test Driven Development<br>
-        Pair Programming<br>
-      </p>
+      <div class="col-6" id="front-box">
+        <h1 id="front-h1">Frontend</h1>
+        <p id="frontend-skills">
+          <script> $(document).ready(function() { createCircle("Ruby on Rails", .8); })</script>
+          <span class="Ruby on Rails"></span>
+          <script> $(document).ready(function() { createCircle("Javascript", .6); })</script>
+          <span class="Javascript"></span>
+          <script> $(document).ready(function() { createCircle("Jquery", .7); })</script>
+          <span class="Jquery"></span>
+          <script> $(document).ready(function() { createCircle("HTML", .8); })</script>
+          <span class="HTML"></span>
+          <script> $(document).ready(function() { createCircle("CSS", .6); })</script>
+          <span class="CSS"></span>
+          <script> $(document).ready(function() { createCircle("Responsive Design", .7); })</script>
+          <span class="Responsive Design"></span>
+          <script> $(document).ready(function() { createCircle("Agile Development", .6); })</script>
+          <span class="Agile Development"></span>
+          <script> $(document).ready(function() { createCircle("Test Driven Development", .5); })</script>
+          <span class="Test Driven Development"></span>
+          <script> $(document).ready(function() { createCircle("Pair Programming", .7); })</script>
+          <span class="Pair Programming"></span>
+        </p>
+      </div>
+      <div class="col-6" id="back-box">
+        <h1 id="back-h1">Backend</h1>
+        <p id="backend-skills">
+        <script> $(document).ready(function() { createCircle("Java", .8); })</script>
+        <span class="Java"></span>
+        <script> $(document).ready(function() { createCircle("Android Development", .6); })</script>
+        <span class="Android Development"></span>
+        <script> $(document).ready(function() { createCircle("Database Architecture", .5); })</script>
+        <span class="Database Architecture"></span>
+        <script> $(document).ready(function() { createCircle("Algorithm Optimization", .6); })</script>
+        <span class="Algorithm Optimization"></span>
+        <script> $(document).ready(function() { createCircle("Assembly", .3); })</script>
+        <span class="Assembly"></span>
+        <script> $(document).ready(function() { createCircle("Computer Organization", .7); })</script>
+        <span class="Computer Organization"></span>
+        </p>
+        <svg width="0" height="0">
+        <defs>
+          <linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#618099"/>
+            <stop offset="100%" stop-color="#8e6677"/>
+          </linearGradient>
+          <linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#8e6677"/>
+            <stop offset="100%" stop-color="#9b5e67"/>
+          </linearGradient>
+          <linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+            <stop stop-color="#9b5e67"/>
+            <stop offset="100%" stop-color="#9c787a"/>
+          </linearGradient>
+          <linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+            <stop stop-color="#9c787a"/>
+            <stop offset="100%" stop-color="#817a94"/>
+          </linearGradient>
+          <linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+            <stop stop-color="#817a94"/>
+            <stop offset="100%" stop-color="#498a98"/>
+          </linearGradient>
+          <linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+            <stop stop-color="#498a98"/>
+            <stop offset="100%" stop-color="#618099"/>
+          </linearGradient>
+        </defs>
+      </div>
       <br><br>
 
     </div>

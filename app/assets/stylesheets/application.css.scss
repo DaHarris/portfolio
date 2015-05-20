@@ -2,10 +2,12 @@
   box-sizing: border-box;
 }
 
-@import "reset";
-@import "columns";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,100,400);
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import "circles";
+@import "reset";
+@import "columns";
+
 
 body {
   background-color: #FFFFFF;
@@ -170,7 +172,6 @@ p#summary {
 
 .ports {
   width: 100%;
-  margin-bottom: 10px;
   overflow: hidden;
   -moz-box-shadow:0 0 8px 0 black;
   -webkit-box-shadow:0 0 8px 0 black;
@@ -194,6 +195,7 @@ p#summary {
   width: 50%;
   height: 40%;
   margin-top: 10%;
+  overflow: scroll;
 }
 
 .first-button {
@@ -278,4 +280,69 @@ p#summary {
 #extra-info {
   text-align: right;
   margin-right: 25%;
+}
+
+#frontend-skills,#backend-skills {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+#backend-skills {
+  text-align: right;
+}
+
+#front-h1 {
+  text-align: center;
+  margin-right: 10%;
+}
+
+#back-h1 {
+  text-align: center;
+  margin-left: 10%;
+}
+
+//****************************************//
+//             MOBILE SETTINGS            //
+//****************************************//
+
+@media screen and (max-width: 480px) {
+
+  .image-text {
+    display: none !important;
+  }
+
+  .first-button {
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    margin-top: 30%;
+    margin-left: 0;
+  }
+
+  .second-button {
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    margin-top: 30%;
+    margin-left: 0;
+  }
+
+  #basic-info {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #extra-info {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .progress>li {
+    margin: 40px;
+  }
 }

@@ -13,7 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require_tree
+//= require circles
 
 
 $(document).ready(function() {
@@ -22,10 +23,12 @@ $(document).ready(function() {
       if ($(window).scrollTop() > navpos.top) {
         $('.topper').css('position','fixed');
         $('.topper').css('top','0');
+        $('#menu-placeholder').css('height','75');
        }
        else {
          $('.topper').css('position','');
          $('.topper').css('top','');
+         $('#menu-placeholder').css('height','');
        }
     });
 
