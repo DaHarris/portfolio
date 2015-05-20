@@ -1,0 +1,449 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:800,100,400);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+/* line 1, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+/* line 6, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+[class*='col-'] {
+  float: left;
+  display: block;
+}
+
+/* line 6, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-1 {
+  width: 8.3%;
+}
+
+/* line 10, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-2 {
+  width: 16.6%;
+}
+
+/* line 14, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 18, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-4 {
+  width: 33.3%;
+}
+
+/* line 22, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-5 {
+  width: 41.6%;
+}
+
+/* line 26, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 30, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-7 {
+  width: 58.3%;
+}
+
+/* line 34, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-8 {
+  width: 66.6%;
+}
+
+/* line 38, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 42, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-10 {
+  width: 83.3%;
+}
+
+/* line 46, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-11 {
+  width: 91.6%;
+}
+
+/* line 50, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/_columns.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 10, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+body {
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+/* line 15, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.header {
+  background-color: #F06543;
+  width: 100%;
+  height: 60px;
+}
+
+/* line 21, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.header h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+/* line 26, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#main {
+  width: 100%;
+  background-size: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 34, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.projects {
+  float: left;
+  width: 100%;
+}
+
+/* line 39, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.topper h1 {
+  font-family: 'Permanent Marker', cursive;
+  width: 100%;
+  height: 100%;
+  word-spacing: 200px;
+}
+
+/* line 46, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.topper {
+  z-index: 11;
+  background-color: #232228;
+  color: #A9FFF7;
+  height: 24%;
+  width: 100%;
+  text-align: center;
+  float: left;
+  max-height: 75px;
+  -moz-box-shadow: 0 0 8px 0 black;
+  -webkit-box-shadow: 0 0 8px 0 black;
+  box-shadow: 0 0 8px 0 black;
+}
+
+/* line 60, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.topper #logo {
+  padding-top: 3px;
+  height: 70px;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 67, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.topper #logo:hover {
+  opacity: 0.4;
+}
+
+/* line 71, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#contact-h1 {
+  text-align: left;
+  color: #A9FFF7;
+}
+
+/* line 76, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#contact-h1:hover {
+  color: #FF6663;
+}
+
+/* line 80, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#portfolio-h1 {
+  text-align: right;
+  color: #A9FFF7;
+}
+
+/* line 85, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 89, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#portfolio-h1:hover {
+  color: #FF6663;
+}
+
+/* line 93, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.container h1, h2, h3, h4, h5, h6, a, p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #000000;
+}
+
+/* line 99, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#webs {
+  width: 100%;
+}
+
+/* line 103, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#headshot {
+  width: 30%;
+  padding: 50px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 160px;
+  min-width: 190px;
+}
+
+/* line 114, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.container {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  overflow: auto;
+  background-color: #FFFFFF;
+}
+
+/* line 122, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#mid {
+  width: 80%;
+}
+
+/* line 126, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+hr {
+  width: 60%;
+}
+
+/* line 130, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#education, #ed-header, #skills, #skills-header, #summary {
+  text-align: center;
+  line-height: 25px;
+}
+
+/* line 135, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#summary {
+  text-align: center;
+}
+
+/* line 139, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+p#summary {
+  display: block;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 146, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.about {
+  height: 40%;
+}
+
+/* line 150, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.portfolio-box {
+  float: left;
+  background-image: url("footer_lodyas.png");
+  width: 100%;
+  -moz-box-shadow: 0 0 8px 0 black;
+  -webkit-box-shadow: 0 0 8px 0 black;
+  box-shadow: 0 0 8px 0 black;
+}
+
+/* line 159, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#portfolio-topper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #A9FFF7;
+  text-align: center;
+}
+
+/* line 167, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.port {
+  background-image: url("footer_lodyas.png");
+}
+
+/* line 171, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.ports {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  -moz-box-shadow: 0 0 8px 0 black;
+  -webkit-box-shadow: 0 0 8px 0 black;
+  box-shadow: 0 0 8px 0 black;
+}
+
+/* line 180, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.image-header {
+  display: none;
+  margin-left: 10%;
+  color: #FFFFFF;
+  position: absolute;
+  height: 20%;
+  margin-top: 5%;
+}
+
+/* line 189, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.image-text {
+  display: none;
+  margin-left: 5%;
+  color: #FFFFFF;
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  margin-top: 10%;
+}
+
+/* line 199, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.first-button {
+  z-index: 10;
+  display: none;
+  padding: 0.88889rem 1.77778rem 0.94444rem 1.77778rem;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 30%;
+  text-align: center;
+  width: 200px;
+  background-color: #008CBA;
+  border-color: #007095;
+  color: #FFFFFF;
+}
+
+/* line 214, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.first-button:hover {
+  opacity: .7;
+}
+
+/* line 218, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.second-button {
+  z-index: 10;
+  display: none;
+  padding: 0.88889rem 1.77778rem 0.94444rem 1.77778rem;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  width: 200px;
+  margin-left: 10%;
+  margin-top: 30%;
+  text-align: center;
+  background-color: #008CBA;
+  border-color: #007095;
+  color: #FFFFFF;
+}
+
+/* line 233, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.second-button:hover {
+  opacity: .7;
+}
+
+/* line 237, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.contact-box {
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+  float: left;
+  line-height: 25px;
+}
+
+/* line 245, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.contact-box p {
+  color: #A9FFF7;
+}
+
+/* line 249, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+.contact-box a {
+  color: #FF6663;
+}
+
+/* line 253, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#snorlax-box {
+  height: 107px;
+}
+
+/* line 257, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#snorlax {
+  opacity: 0.7;
+  display: block;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+/* line 266, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#contact-topper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #A9FFF7;
+  text-align: center;
+}
+
+/* line 274, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#basic-info {
+  margin-left: 25%;
+}
+
+/* line 278, /Users/bobth3bum/personalProject/portfolio/portfolio/app/assets/stylesheets/application.css.scss */
+#extra-info {
+  text-align: right;
+  margin-right: 25%;
+}
